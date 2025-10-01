@@ -1,6 +1,6 @@
 // 1st Floor
-let gymatoriumLock = false;
-
+let gymatoriumLock = true;
+gymatoriumLock = false; 
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 2nd Floor
@@ -8,8 +8,11 @@ let gymatoriumLock = false;
 let weworkItems = ["loaner laptop", "whiteboard", "conference room", "couch", "printer", "shared table", "Wi-Fi router", "plants", "office chair", "power outlets"];
 let computerLabItems = ["desktop computers", "monitors", "broken laptop", "mice", "Wi-Fi router", "printer", "power strips", "headphones", "USB drives", "chairs", "desks"];
 let mprItems = ["mirrors", "speakers", "chairs", "portable stereo", "projector", "chairs", "posters"];
-
-
+weworkItems.shift
+computerLabItems.push("desktop computers")
+computerLabItems[2] = "fixed laptop"
+console.log(mprItems.length)
+let keyCode = weworkItems.length + computerLabItems.length + mprItems.length
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 3rd Floor
