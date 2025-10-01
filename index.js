@@ -23,6 +23,15 @@ let scoreValues = {
     "O": "Organization",
     "R": "Resilience"
 }
+ scoreValues.C = "Consistency"
+ scoreValues.O = "Ownership"
+let scoreValues = {
+    "S": "Self-awareness",
+    "C": "Challenge",
+    "O": "Organization",
+    "R": "Resilience",
+    "E": "Exellence"
+}
 
 let afterSchoolClubs = {
     athletic: [
@@ -54,6 +63,7 @@ let afterSchoolClubs = {
         }     
     ]
 }
+afterSchoolClubs[1][2].location = "Balcony"
 
 
 // Commit and show us to unlock the next floor's instructions
