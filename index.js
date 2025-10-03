@@ -63,7 +63,10 @@ let afterSchoolClubs = {
         }     
     ]
 }
+
 afterSchoolClubs[1][2].location = "Balcony"
+afterSchoolClubs[0][0].club = "British 
+"
 
 
 // Commit and show us to unlock the next floor's instructions
@@ -71,12 +74,12 @@ afterSchoolClubs[1][2].location = "Balcony"
 // 4th Floor
 // Uncomment the code below to begin this task
 
-// let takeCareOfPet = function(snacks, pets) => {
-//     if (Snacks[2] === "hotdogs" && pets > 10) {
-//         return "Raccoon has been appeased"
-//     } else {
-//         return "The raccoon bit you and you died of rabies."
-    
+let takeCareOfPet = function(snacks, pets) {
+    if (snacks[2] === snacks && pets > 10) {
+        return pets  + "has been appeased"
+    } else {
+        return "The" + pets + "bit you and you died of rabies."
+    }
 // }
 
 
